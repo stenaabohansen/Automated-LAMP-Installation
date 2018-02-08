@@ -13,13 +13,13 @@ echo "##########################################################################
 
 
 #PHP7 PPA
-sudo apt-get install python-software-properties
-sudo add-apt-repository ppa:ondrej/php
+sudo apt-get --assume-yes install python-software-properties
+sudo add-apt-repository --assume-yes ppa:ondrej/php
 
 
 #Update the repositories
 
-sudo apt-get update
+sudo apt-get --assume-yes update
 
 
 #Apache, Php, MySQL and required packages installation
